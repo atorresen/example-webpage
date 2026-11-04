@@ -1,0 +1,112 @@
+:root {
+    --dark: rgb(50, 0, 80);
+    --mid: rgb(100, 80, 130);
+    --light: rgb(220, 210, 230);
+    --mdText: rgb(90, 80, 90);
+    --dkText: rgb(20, 10, 20);
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 16px;
+    max-width: 800px;
+}
+
+h2 {
+    margin-top: 24px;
+    color: var(--mdText);
+}
+
+h4 {
+    margin-top: 16px;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.accordion-body h4 {
+    margin-left: -16px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+blockquote {
+    background-color: white;
+}
+
+img {
+    max-width: 300px;
+    margin: 12px;
+    float: right;
+}
+
+.flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.flex a {
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 8px;
+    text-decoration: none;
+}
+
+.flex a:hover {
+    background-color: var(--mid);
+}
+
+a {
+    color: var(--mid)
+}
+
+.here {
+    background-color: var(--mid) !important;
+    color: var(--light) !important; 
+}
+
+.accordion {
+    margin-top: 16px;
+    border-radius: 0;
+}
+ 
+.accordion-item, .accordion-header, .accordion-body {
+    background-color: var(--light);
+    color: var(--dkText);
+    border-radius: 0;
+}
+
+.accordion-header {
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.accordion-header:hover {
+    background-color: var(--mid);
+}
+
+
+.accordion-body {
+    font-family: monospace;
+}
+
+.date {
+    background-color: var(--dkText);
+    color: var(--light);
+    margin-right: 8px;
+}
+
+.bold {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.field-trip {
+    background-color: #ccc;
+    max-width: fit-content;
+}
